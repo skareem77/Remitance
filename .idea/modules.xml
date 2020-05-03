@@ -2,10 +2,10 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/CountryCurrency/CountryCurrency.iml" filepath="$PROJECT_DIR$/CountryCurrency/CountryCurrency.iml" />
       <module fileurl="file://$PROJECT_DIR$/country/country.iml" filepath="$PROJECT_DIR$/country/country.iml" />
       <module fileurl="file://$PROJECT_DIR$/currency/currency.iml" filepath="$PROJECT_DIR$/currency/currency.iml" />
       <module fileurl="file://$PROJECT_DIR$/discoveryService/discoveryService.iml" filepath="$PROJECT_DIR$/discoveryService/discoveryService.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exchange/exchange.iml" filepath="$PROJECT_DIR$/exchange/exchange.iml" />
       <module fileurl="file://$PROJECT_DIR$/remitance.iml" filepath="$PROJECT_DIR$/remitance.iml" />
     </modules>
   </component>

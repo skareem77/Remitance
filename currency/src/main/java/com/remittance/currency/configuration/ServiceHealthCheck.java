@@ -9,7 +9,6 @@ public class ServiceHealthCheck implements HealthIndicator {
 
     @Override
     public Health health() {
-        System.out.println("System is up");
-        return Health.up().build();
+        return Health.up().status("Currency service is up").build();
     }
 }
