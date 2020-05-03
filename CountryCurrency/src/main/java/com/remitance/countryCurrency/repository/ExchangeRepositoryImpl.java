@@ -12,7 +12,7 @@ public class ExchangeRepositoryImpl implements ExchangeRepository {
     RestTemplate exchangeRestTemplate;
 
     @Override
-    public Exchange exchangeAmount(String from, String to, int amount) {
+    public Exchange exchangeAmount(String from, String to) {
         StringBuilder sb = new StringBuilder("https://api.exchangeratesapi.io/latest");
         sb.append("?base=" + from).append("&symbols=" +to);
         Exchange response = exchangeRestTemplate.getForObject(sb.toString(), Exchange.class);

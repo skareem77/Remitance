@@ -5,7 +5,6 @@ import com.remitance.countryCurrency.repository.ExchangeRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.HashMap;
 import java.util.LinkedHashMap;
 import java.util.Map;
 
@@ -17,7 +16,7 @@ public class ExchangeServiceImpl implements ExchangeService {
 
     @Override
     public Double converter(String from, String to, int amount) {
-        Exchange exchange = exchangeRepository.exchangeAmount(from, to, amount);
+        Exchange exchange = exchangeRepository.exchangeAmount(from, to);
         Map<String, Double> map = (LinkedHashMap)exchange.getRate();
         return map.get(to) * amount;
     }
