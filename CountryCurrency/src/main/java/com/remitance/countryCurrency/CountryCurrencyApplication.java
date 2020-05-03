@@ -17,4 +17,9 @@ public class CountryCurrencyApplication {
 	public static void main(String[] args) {
 		SpringApplication.run(CountryCurrencyApplication.class, args);
 	}
+
+	@Bean
+	public RestTemplate exchangeRestTemplate(RestTemplateBuilder builder) {
+		return builder.build();
+	}
 }
