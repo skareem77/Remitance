@@ -1,6 +1,7 @@
 package com.remitance.exchange.repository;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import com.netflix.hystrix.contrib.javanica.annotation.HystrixProperty;
 import com.remitance.exchange.model.CountryCurrency;
 import com.remitance.exchange.model.CountryList;
 import com.remitance.exchange.model.CurrencyList;
@@ -26,12 +27,13 @@ public class CountryCurrencyRepoImpl implements CountryCurrencyRepo {
     private RestTemplate restTemplate;
 
     @Override
-    @HystrixCommand(fallbackMethod = "defaultData")
+    //@HystrixCommand
+    ///@HystrixProperty(name = "hystrix.command.default.execution.timeout.enabled", value = "false")
     public CountryCurrency getCC() {
         CountryCurrency countryCurrency = new CountryCurrency();
         try {
-            CurrencyList currencyList = restTemplate.getForObject("http://currency/v1/currencies", CurrencyList.class);
-            CountryList countryList = restTemplate.getForObject("http://country/v1/countries", CountryList.class);
+            CountryList countryList = restTemplate.getForObject("http://country-service/v1/countries", CountryList.class);
+            CurrencyList currencyList = restTemplate.getForObject("http://currency-service/v1/currencies", CurrencyList.class);
             countryCurrency.setCountryList(countryList);
             countryCurrency.setCurrencyList(currencyList);
         } catch (Exception e) {
