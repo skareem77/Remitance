@@ -16,7 +16,7 @@ public class ExchangeRepositoryImpl implements ExchangeRepository {
     RestTemplate exchangeRestTemplate;
 
     @Override
-    //@HystrixCommand(fallbackMethod = "defaultExchange")
+    @HystrixCommand
     public Exchange exchangeAmount(String from, String to) {
         StringBuilder sb = new StringBuilder("https://api.exchangeratesapi.io/latest");
         sb.append("?base=" + from).append("&symbols=" +to);
