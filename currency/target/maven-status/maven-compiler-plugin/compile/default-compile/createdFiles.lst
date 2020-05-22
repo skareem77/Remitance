@@ -1,0 +1,9 @@
+com/remittance/currency/service/CurrencyServiceImpl.class
+com/remittance/currency/repository/CurrencyRepositoryImpl.class
+com/remittance/currency/repository/CurrencyRepository.class
+com/remittance/currency/model/Currencies.class
+com/remittance/currency/configuration/ServiceHealthCheck.class
+com/remittance/currency/service/CurrencyService.class
+com/remittance/currency/webResource/CurrencyResource.class
+com/remittance/currency/CurrencyApplication.class
+com/remittance/currency/model/CurrencyList.class

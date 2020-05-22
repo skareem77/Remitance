@@ -7,6 +7,7 @@ import com.remitance.exchange.model.CountryList;
 import com.remitance.exchange.model.CurrencyList;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.web.client.RestTemplateBuilder;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.cloud.client.loadbalancer.LoadBalanced;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Repository;
@@ -17,18 +18,13 @@ import java.util.ArrayList;
 @Repository
 public class CountryCurrencyRepoImpl implements CountryCurrencyRepo {
 
-    @LoadBalanced
-    @Bean
-    public RestTemplate restTemplate(RestTemplateBuilder builder) {
-        return builder.build();
-    }
-
     @Autowired
     private RestTemplate restTemplate;
 
     @Override
+    @Cacheable("country-currency-cache")
     //@HystrixCommand
-    ///@HystrixProperty(name = "hystrix.command.default.execution.timeout.enabled", value = "false")
+    //@HystrixProperty(name = "hystrix.command.default.execution.timeout.enabled", value = "false")
     public CountryCurrency getCC() {
         CountryCurrency countryCurrency = new CountryCurrency();
         try {

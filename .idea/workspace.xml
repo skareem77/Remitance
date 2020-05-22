@@ -1,32 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="eaa32f10-0253-4ee9-9fe4-3f2fe6ed14e0" name="Default Changelist" comment="">
+    <list default="true" id="eaa32f10-0253-4ee9-9fe4-3f2fe6ed14e0" name="Default Changelist" comment="zuul module added">
+      <change afterPath="$PROJECT_DIR$/.idea/.name" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_code_findbugs_jsr305_3_0_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_netflix_zuul_zuul_core_1_3_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_io_commons_io_2_4.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_core_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_netflix_zuul_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_archaius_1_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_netflix_zuul_2_2_2_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_4_7_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_hystrix_1_3_1_RELEASE.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/CountryCurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/exchange.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/CountryCurrencyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/CountryCurrencyApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/model/Country.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/model/Country.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/model/CountryCurrency.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/model/CountryCurrency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/model/CountryList.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/model/CountryList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/model/Currency.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/model/Currency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/model/CurrencyList.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/model/CurrencyList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/model/Exchange.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/model/Exchange.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/repository/CountryCurrencyRepo.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/CountryCurrencyRepo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/repository/CountryCurrencyRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/CountryCurrencyRepoImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/repository/ExchangeRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/ExchangeRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/repository/ExchangeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/ExchangeRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/service/CountryCurrencyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/service/CountryCurrencyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/service/CountryCurrencyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/service/CountryCurrencyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/service/ExchangeService.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/service/ExchangeService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/service/ExchangeServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/service/ExchangeServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/webResource/CountryCurrencyResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/webResource/CountryCurrencyResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/java/com/remitance/countryCurrency/webResource/ExchangeResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/webResource/ExchangeResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/main/resources/bootstrap.properties" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/resources/bootstrap.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/CountryCurrency/src/test/java/com/remitance/countryCurrency/CountryCurrencyApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/test/java/com/remitance/exchange/CountryCurrencyApplicationTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/currency/src/main/java/com/remittance/currency/configuration/ServiceHealthCheck.java" beforeDir="false" afterPath="$PROJECT_DIR$/currency/src/main/java/com/remittance/currency/configuration/ServiceHealthCheck.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country/src/main/java/com/remitance/country/CountryApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/country/src/main/java/com/remitance/country/CountryApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country/src/main/java/com/remitance/country/repository/CountryRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/country/src/main/java/com/remitance/country/repository/CountryRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/country/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/country/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/currency/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/currency/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/countryCurrency.iml" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/countryCurrency.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/CountryCurrencyApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/CountryCurrencyApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/CountryCurrencyRepoImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/CountryCurrencyRepoImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/ExchangeRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/exchange/src/main/java/com/remitance/exchange/repository/ExchangeRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/proxy/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/proxy/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,27 +67,48 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/discoveryService" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Documents" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="Errors" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Document" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Documents" />
+      <recent name="$PROJECT_DIR$/proxy" />
+      <recent name="$PROJECT_DIR$/Hystrixdashboard" />
       <recent name="$PROJECT_DIR$/discoveryService" />
       <recent name="$PROJECT_DIR$/CountryCurrency" />
-      <recent name="$PROJECT_DIR$/currency" />
-      <recent name="$PROJECT_DIR$/country" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CurrencyApplication">
+  <component name="RunManager" selected="Application.CountryCurrencyApplication">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
     </configuration>
+    <configuration name="CountryApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.remitance.country.CountryApplication" />
+      <module name="country" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.remitance.country.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CountryCurrencyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.remitance.exchange.CountryCurrencyApplication" />
-      <module name="exchange" />
+      <module name="countryCurrency" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -128,6 +148,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="ProxyApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zuul.proxy.ProxyApplication" />
+      <module name="proxy" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zuul.proxy.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -159,11 +193,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.CurrencyApplication" />
+      <item itemvalue="Application.DiscoveryServiceApplication" />
+      <item itemvalue="Application.CountryApplication" />
+      <item itemvalue="Application.CountryCurrencyApplication" />
+      <item itemvalue="Application.ProxyApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProxyApplication" />
+        <item itemvalue="Application.CountryCurrencyApplication" />
+        <item itemvalue="Application.CountryApplication" />
         <item itemvalue="Application.CurrencyApplication" />
         <item itemvalue="Application.DiscoveryServiceApplication" />
-        <item itemvalue="Application.CountryCurrencyApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -192,79 +235,148 @@
       <option name="project" value="LOCAL" />
       <updated>1588476331650</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="exchange module code refactor">
+      <created>1588477852493</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1588477852493</updated>
+    </task>
+    <task id="LOCAL-00004" summary="exchange module code refactor and actuator">
+      <created>1588567021104</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1588567021105</updated>
+    </task>
+    <task id="LOCAL-00005" summary="zuul module added">
+      <created>1588612213646</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1588612213646</updated>
+    </task>
+    <task id="LOCAL-00006" summary="document">
+      <created>1588613108938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1588613108939</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="exchange end point" />
     <MESSAGE value="exchange module code refactor" />
-    <option name="LAST_COMMIT_MESSAGE" value="exchange module code refactor" />
+    <MESSAGE value="exchange module code refactor and actuator" />
+    <MESSAGE value="zuul module added" />
+    <MESSAGE value="document" />
+    <option name="LAST_COMMIT_MESSAGE" value="document" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1588475373136">
+    <state x="403" y="90" key="#CountryCurrencyApplication" timestamp="1588479413316">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.23.1440.812@0.23.1440.812" timestamp="1588475373136" />
-    <state x="299" y="34" key="CommitChangelistDialog2" timestamp="1588476331497">
+    <state x="403" y="90" key="#CountryCurrencyApplication/0.23.1440.812@0.23.1440.812" timestamp="1588479413316" />
+    <state x="320" y="96" key="#Project_Structure" timestamp="1588612901121">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="299" y="34" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1588476331497" />
-    <state width="449" height="438" key="DebuggerActiveHint" timestamp="1588475735071">
+    <state x="320" y="96" key="#Project_Structure/0.23.1440.812@0.23.1440.812" timestamp="1588612901121" />
+    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1588479497051">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="449" height="438" key="DebuggerActiveHint/0.23.1440.812@0.23.1440.812" timestamp="1588475735071" />
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom" timestamp="1588477608277">
+    <state x="184" y="92" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.812@0.23.1440.812" timestamp="1588479497051" />
+    <state x="434" y="239" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1588481539220">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588477608277" />
-    <state width="1398" height="135" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1588474955299" />
-    <state width="1398" height="209" key="GridCell.Tab.0.center" timestamp="1588477608277">
+    <state x="434" y="239" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.812@0.23.1440.812" timestamp="1588481539220" />
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser" timestamp="1588481602406">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588477608277" />
-    <state width="1398" height="135" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1588474955298" />
-    <state width="1398" height="209" key="GridCell.Tab.0.left" timestamp="1588477608276">
+    <state x="533" y="141" key="#com.intellij.ide.util.MemberChooser/0.23.1440.812@0.23.1440.812" timestamp="1588481602406" />
+    <state x="116" y="34" key="CommitChangelistDialog2" timestamp="1588613108771">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588477608276" />
-    <state width="1398" height="135" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1588474955298" />
-    <state width="1398" height="209" key="GridCell.Tab.0.right" timestamp="1588477608277">
+    <state x="116" y="34" key="CommitChangelistDialog2/0.23.1440.812@0.23.1440.812" timestamp="1588613108771" />
+    <state width="449" height="438" key="DebuggerActiveHint" timestamp="1588605294562">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="209" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588477608277" />
-    <state width="1398" height="135" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1588474955299" />
-    <state width="1398" height="202" key="GridCell.Tab.1.bottom" timestamp="1588477036550">
+    <state width="449" height="438" key="DebuggerActiveHint/0.23.1440.812@0.23.1440.812" timestamp="1588605294562" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom" timestamp="1589409259921">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="393" key="GridCell.Tab.0.bottom/0.23.1440.811@0.23.1440.811" timestamp="1588555735553" />
+    <state width="1398" height="288" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588961096610" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.813@0.23.1440.813" timestamp="1589409259921" />
+    <state width="1398" height="173" key="GridCell.Tab.0.bottom/0.23.1440.815@0.23.1440.815" timestamp="1589325182085" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center" timestamp="1589409259921">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="393" key="GridCell.Tab.0.center/0.23.1440.811@0.23.1440.811" timestamp="1588555735552" />
+    <state width="1398" height="288" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1588961096610" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.813@0.23.1440.813" timestamp="1589409259921" />
+    <state width="1398" height="173" key="GridCell.Tab.0.center/0.23.1440.815@0.23.1440.815" timestamp="1589325182084" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left" timestamp="1589409259921">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="393" key="GridCell.Tab.0.left/0.23.1440.811@0.23.1440.811" timestamp="1588555735552" />
+    <state width="1398" height="288" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1588961096610" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.813@0.23.1440.813" timestamp="1589409259921" />
+    <state width="1398" height="173" key="GridCell.Tab.0.left/0.23.1440.815@0.23.1440.815" timestamp="1589325182083" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right" timestamp="1589409259921">
+      <screen x="0" y="23" width="1440" height="813" />
+    </state>
+    <state width="1398" height="393" key="GridCell.Tab.0.right/0.23.1440.811@0.23.1440.811" timestamp="1588555735553" />
+    <state width="1398" height="288" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1588961096610" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.813@0.23.1440.813" timestamp="1589409259921" />
+    <state width="1398" height="173" key="GridCell.Tab.0.right/0.23.1440.815@0.23.1440.815" timestamp="1589325182084" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom" timestamp="1588961096607">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.1.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588477036550" />
+    <state width="1398" height="393" key="GridCell.Tab.1.bottom/0.23.1440.811@0.23.1440.811" timestamp="1588555735554" />
+    <state width="1398" height="255" key="GridCell.Tab.1.bottom/0.23.1440.812@0.23.1440.812" timestamp="1588961096607" />
     <state width="1398" height="135" key="GridCell.Tab.1.bottom/0.23.1440.813@0.23.1440.813" timestamp="1588474969611" />
-    <state width="1398" height="202" key="GridCell.Tab.1.center" timestamp="1588477036549">
+    <state width="1398" height="255" key="GridCell.Tab.1.center" timestamp="1588961096607">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.1.center/0.23.1440.812@0.23.1440.812" timestamp="1588477036549" />
+    <state width="1398" height="393" key="GridCell.Tab.1.center/0.23.1440.811@0.23.1440.811" timestamp="1588555735553" />
+    <state width="1398" height="255" key="GridCell.Tab.1.center/0.23.1440.812@0.23.1440.812" timestamp="1588961096607" />
     <state width="1398" height="135" key="GridCell.Tab.1.center/0.23.1440.813@0.23.1440.813" timestamp="1588474969610" />
-    <state width="1398" height="202" key="GridCell.Tab.1.left" timestamp="1588477036549">
+    <state width="1398" height="255" key="GridCell.Tab.1.left" timestamp="1588961096607">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.1.left/0.23.1440.812@0.23.1440.812" timestamp="1588477036549" />
+    <state width="1398" height="393" key="GridCell.Tab.1.left/0.23.1440.811@0.23.1440.811" timestamp="1588555735553" />
+    <state width="1398" height="255" key="GridCell.Tab.1.left/0.23.1440.812@0.23.1440.812" timestamp="1588961096607" />
     <state width="1398" height="135" key="GridCell.Tab.1.left/0.23.1440.813@0.23.1440.813" timestamp="1588474969610" />
-    <state width="1398" height="202" key="GridCell.Tab.1.right" timestamp="1588477036549">
+    <state width="1398" height="255" key="GridCell.Tab.1.right" timestamp="1588961096607">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state width="1398" height="202" key="GridCell.Tab.1.right/0.23.1440.812@0.23.1440.812" timestamp="1588477036549" />
+    <state width="1398" height="393" key="GridCell.Tab.1.right/0.23.1440.811@0.23.1440.811" timestamp="1588555735553" />
+    <state width="1398" height="255" key="GridCell.Tab.1.right/0.23.1440.812@0.23.1440.812" timestamp="1588961096607" />
     <state width="1398" height="135" key="GridCell.Tab.1.right/0.23.1440.813@0.23.1440.813" timestamp="1588474969611" />
-    <state x="320" y="170" key="Vcs.Push.Dialog.v2" timestamp="1588476336563">
+    <state x="349" y="133" key="NewModule_or_Project.wizard" timestamp="1588478566933">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
-    <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1588476336563" />
+    <state x="349" y="133" key="NewModule_or_Project.wizard/0.23.1440.812@0.23.1440.812" timestamp="1588478566933" />
+    <state x="320" y="170" key="Vcs.Push.Dialog.v2" timestamp="1588613115703">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state x="320" y="170" key="Vcs.Push.Dialog.v2/0.23.1440.812@0.23.1440.812" timestamp="1588613115703" />
     <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1588473938706">
       <screen x="0" y="23" width="1440" height="812" />
     </state>
     <state width="720" height="450" key="XDebugger.FullValuePopup/0.23.1440.812@0.23.1440.812" timestamp="1588473938706" />
-    <state x="114" y="130" key="new project wizard" timestamp="1588468751470">
-      <screen x="0" y="23" width="1440" height="812" />
+    <state x="376" y="263" key="com.intellij.ide.util.TipDialog" timestamp="1588554566370">
+      <screen x="0" y="23" width="1440" height="811" />
     </state>
-    <state x="114" y="130" key="new project wizard/0.23.1440.812@0.23.1440.812" timestamp="1588468751470" />
+    <state x="376" y="263" key="com.intellij.ide.util.TipDialog/0.23.1440.811@0.23.1440.811" timestamp="1588554566370" />
+    <state x="114" y="130" key="new project wizard" timestamp="1589325255268">
+      <screen x="0" y="23" width="1440" height="815" />
+    </state>
+    <state x="114" y="130" key="new project wizard/0.23.1440.811@0.23.1440.811" timestamp="1588555601772" />
+    <state x="114" y="130" key="new project wizard/0.23.1440.812@0.23.1440.812" timestamp="1588612624648" />
+    <state x="114" y="130" key="new project wizard/0.23.1440.815@0.23.1440.815" timestamp="1589325255268" />
   </component>
   <component name="XDebuggerManager">
     <watches-manager>
